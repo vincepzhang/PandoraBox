@@ -2,8 +2,8 @@
 // https://docs.swift.org/swift-book
 
 public class PandoraBox {
-    static let instance = PandoraBox()
-    func testFunction() {
+    public static let instance = PandoraBox()
+    public func testFunction() {
         print("PandoraBox import Sucess")
     }
 }
