@@ -3,6 +3,8 @@ import XCTest
 
 final class PandoraBoxTests: XCTestCase {
     func testExample() throws {
+        
+        let _ = PandoraBox()
         // XCTest Documenation
         // https://developer.apple.com/documentation/xctest
 
