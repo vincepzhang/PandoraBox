@@ -1,6 +1,9 @@
 // The Swift Programming Language
 // https://docs.swift.org/swift-book
 
-class PandoraBox {
-    
+public class PandoraBox {
+    static let instance = PandoraBox()
+    func testFunction() {
+        print("PandoraBox import Sucess")
+    }
 }
